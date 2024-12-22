@@ -12,20 +12,21 @@ export default function Hero() {
         >
           <div className="relative w-48 h-48 mx-auto">
             <img
-              src="https://via.placeholder.com/192"
+              src="../../public/avatar.png"
               alt="Profile"
               className="rounded-full w-full h-full object-cover shadow-lg"
             />
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
-              <span className="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">
+              
+            </div><br/>
+            <span className="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">
                 Available for hire
               </span>
-            </div>
-          </div>
+          </div><br />
 
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold">John Doe</h1>
-            <h2 className="text-xl text-primary-600">Full Stack Developer</h2>
+            <h1 className="text-4xl font-bold">Nimsara Peiris</h1>
+            <h2 className="text-xl text-primary-600">Software Engineer</h2>
             <p className="max-w-2xl mx-auto text-gray-600">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.
@@ -36,9 +37,9 @@ export default function Hero() {
             <button className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-primary-600 transition-colors">
               Download CV
             </button>
-            <button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-50 transition-colors">
+            <a href="/contact"><button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-50 transition-colors">
               Contact Me
-            </button>
+            </button></a> 
           </div>
         </motion.div>
       </div>
