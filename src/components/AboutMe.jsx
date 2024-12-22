@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Achievements from './Achievements';
 
 export default function AboutMe() {
   const [ref, inView] = useInView({
@@ -33,8 +34,8 @@ export default function AboutMe() {
 
 
             <div className="md:w-2/3">
-              <h1 className="text-4xl font-bold mb-4">Hello, I'm John Doe</h1>
-              
+              <h1 className="text-4xl font-bold mb-4">Hi, I'm Nimsara</h1>
+
               <h2 className="text-2xl text-primary-600 mb-6">Full Stack Developer</h2>
               <div className="-bottom-4 -right-4 bg-primary-500 text-white px-6 py-2 rounded-full w-fit">
                 Available for hire
@@ -55,6 +56,7 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
+          <Achievements />
         </motion.div>
       </div>
     </section>

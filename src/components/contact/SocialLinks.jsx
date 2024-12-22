@@ -29,7 +29,7 @@ const socialLinks = [
     {
         name: 'Buy Me a Coffee',
         icon: <SiBuymeacoffee className="w-6 h-6" />,
-        url: 'buymeacoffee.com/nimsara',
+        url: 'https://buymeacoffee.com/nimsara',
         color: 'hover:bg-[#fd0]'
     }
 ];
