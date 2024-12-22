@@ -22,20 +22,24 @@ export default function AboutMe() {
               <div className="relative">
                 <div className="w-64 h-64 rounded-full overflow-hidden">
                   <img
-                    src="https://via.placeholder.com/256"
+                    src="../../public/avatar.png"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-4 -right-4 bg-primary-500 text-white px-6 py-2 rounded-full">
-                  Available for hire
-                </div>
               </div>
             </div>
-            
+
+
+
             <div className="md:w-2/3">
               <h1 className="text-4xl font-bold mb-4">Hello, I'm John Doe</h1>
+              
               <h2 className="text-2xl text-primary-600 mb-6">Full Stack Developer</h2>
+              <div className="-bottom-4 -right-4 bg-primary-500 text-white px-6 py-2 rounded-full w-fit">
+                Available for hire
+              </div><br />
+
               <p className="text-gray-600 mb-6">
                 I'm a passionate developer with 5 years of experience in building web applications.
                 I specialize in React, Node.js, and cloud technologies. When I'm not coding,

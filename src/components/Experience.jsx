@@ -25,9 +25,9 @@ export default function Experience() {
                 />
               </div>
               <div>
-                <h3 className="text-xl font-semibold">Senior Developer</h3>
-                <p className="text-primary-600">Example Company</p>
-                <p className="text-gray-600">2020 - Present</p>
+                <h3 className="text-xl font-semibold">Software Engineer</h3>
+                <p className="text-primary-600">Imprezit</p>
+                <p className="text-gray-600">2023 - Present</p>
                 <p className="mt-2">
                   Led development of multiple full-stack applications using React and Node.js.
                 </p>
