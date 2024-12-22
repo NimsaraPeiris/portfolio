@@ -17,14 +17,31 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <img
-                src="https://via.placeholder.com/400x300"
+                src="../../public/projects/yatraa.png"
                 alt="Project preview"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Project Name</h3>
+                <h3 className="text-xl font-semibold mb-2">YATRAA</h3>
                 <p className="text-gray-600 mb-4">
-                  Brief description of the project and its key features.
+                  A full-stack web application for booking and managing trips.
+                </p>
+                <button className="text-primary-500 hover:text-primary-600">
+                  Learn More →
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+              <img
+                src="../../public/projects/fattygo.png"
+                alt="Project preview"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">FattyGo</h3>
+                <p className="text-gray-600 mb-4">
+                Fattygo is a nutrition app predicting fat-related risks and offering personalized health solutions.
                 </p>
                 <button className="text-primary-500 hover:text-primary-600">
                   Learn More →
