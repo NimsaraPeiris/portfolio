@@ -23,7 +23,7 @@ export default function AboutMe() {
               <div className="relative">
                 <div className="w-64 h-64 rounded-full overflow-hidden">
                   <img
-                    src="../../public/avatar.png"
+                    src="../projects/avatar.png"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
@@ -50,9 +50,10 @@ export default function AboutMe() {
                 <button className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-primary-600 transition-colors">
                   Download CV
                 </button>
+                <a href="/contact">
                 <button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-primary-50 transition-colors">
                   Contact Me
-                </button>
+                </button></a>
               </div>
             </div>
           </div>

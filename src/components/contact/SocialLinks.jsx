@@ -11,7 +11,7 @@ const socialLinks = [
     {
         name: 'Email',
         icon: <FaInbox className="w-6 h-6" />,
-        url: 'mailto:yourname@example.com',
+        url: 'mailto:nimsara.peiriss@gmail.com',
         color: 'hover:bg-[#D44638]'
     },
     {

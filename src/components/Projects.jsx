@@ -17,7 +17,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <img
-                src="../../public/projects/yatraa.png"
+                src="../../projects/yatraa.png"
                 alt="Project preview"
                 className="w-full h-48 object-cover"
               />
@@ -34,7 +34,7 @@ export default function Projects() {
 
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
               <img
-                src="../../public/projects/fattygo.png"
+                src="../../projects/fattygo.png"
                 alt="Project preview"
                 className="w-full h-48 object-cover"
               />

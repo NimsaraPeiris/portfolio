@@ -12,7 +12,7 @@ export default function Hero() {
         >
           <div className="relative w-48 h-48 mx-auto">
             <img
-              src="../../public/avatar.png"
+              src="../projects/avatar.png"
               alt="Profile"
               className="rounded-full w-full h-full object-cover shadow-lg"
             />
@@ -26,7 +26,7 @@ export default function Hero() {
 
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Nimsara Peiris</h1>
-            <h2 className="text-xl text-primary-600">Software Engineer</h2>
+            <h2 className="text-xl text-primary-600">Software Engineering Undergraduate</h2>
             <p className="max-w-2xl mx-auto text-gray-600">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.

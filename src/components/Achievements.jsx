@@ -9,7 +9,7 @@ export default function Achievements() {
             <div className="container mx-auto px-6">
                 <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md">
                     <img
-                        src="../../public/projects/yatraa.png"
+                        src="../../projects/yatraa.png"
                         alt="Project preview"
                         className="w-full h-48 object-cover"
                     />
