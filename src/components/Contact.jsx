@@ -7,7 +7,7 @@ export default function Contact() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section className="min-h-screen pt-20 bg-white">
+    <section className="min-h-screen pt-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}

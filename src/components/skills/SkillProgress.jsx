@@ -10,7 +10,7 @@ export default function SkillProgress({ name, level, delay }) {
   return (
     <div ref={ref}>
       <div className="flex justify-between mb-1">
-        <span className="text-gray-600">{name}</span>
+        <span className="text-gray-500">{name}</span>
         <span className="text-gray-400">{level}%</span>
       </div>
       <div className="w-full bg-gray-200 rounded-full h-2">

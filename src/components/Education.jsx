@@ -5,7 +5,7 @@ export default function Education() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section id="education" className="py-20 bg-gray-50">
+    <section id="education" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}
@@ -16,11 +16,11 @@ export default function Education() {
           <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
 
           <div className="max-w-3xl mx-auto space-y-8 pb-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md dark:bg-gray-800 transition-colors duration-100">
               <h3 className="text-xl font-semibold">G C E Advanced Level Examination</h3>
-              <p className="text-primary-600">R/Kuruwita Central College</p>
-              <p className="text-gray-600">2018 - 2020</p>
-              <ul className="mt-4 list-disc list-inside text-gray-600">
+              <p className="text-primary-500">R/Kuruwita Central College</p>
+              <p className="text-gray-500">2018 - 2020</p>
+              <ul className="mt-4 list-disc list-inside text-gray-400">
                 <li>Graduated with First Class Honours</li>
                 <li>Specialized in Software Engineering</li>
               </ul>
@@ -28,11 +28,11 @@ export default function Education() {
           </div>
 
           <div className="max-w-3xl mx-auto space-y-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md dark:bg-gray-800 transition-colors duration-100">
               <h3 className="text-xl font-semibold">Bachelor of Science in Software Engineering</h3>
-              <p className="text-primary-600">SLTC Research University</p>
-              <p className="text-gray-600">2022 - 2026</p>
-              <ul className="mt-4 list-disc list-inside text-gray-600">
+              <p className="text-primary-500">SLTC Research University</p>
+              <p className="text-gray-500">2022 - 2026</p>
+              <ul className="mt-4 list-disc list-inside text-gray-400">
                 <li>Graduated with First Class Honours</li>
                 <li>Specialized in Software Engineering</li>
               </ul>

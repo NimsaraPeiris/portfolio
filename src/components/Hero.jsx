@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-50 pt-16">
+    <section className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 pt-16 transition-colors duration-200">
       <div className="container mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Nimsara Peiris</h1>
             <h2 className="text-xl text-primary-600">Software Engineering Undergraduate</h2>
-            <p className="max-w-2xl mx-auto text-gray-600">
+            <p className="max-w-2xl mx-auto text-gray-500">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.
             </p>

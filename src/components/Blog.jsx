@@ -5,7 +5,7 @@ export default function Blog() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section id="blog" className="py-20 bg-gray-50">
+    <section id="blog" className="py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}
@@ -21,9 +21,9 @@ export default function Blog() {
                 alt="Blog post cover"
                 className="w-full h-48 object-cover"
               />
-              <div className="p-6">
+              <div className="p-6 dark:bg-gray-900 transition-colors duration-200">
                 <h3 className="text-xl font-semibold mb-2">Blog Post Title</h3>
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-500 mb-4">
                   Preview of the blog post content goes here...
                 </p>
                 <button className="text-primary-500 hover:text-primary-600">
