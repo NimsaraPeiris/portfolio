@@ -18,7 +18,7 @@ export default function MobileMenu({ isOpen, menuItems, onItemClick }) {
             `block py-2 transition-colors ${
               isActive
                 ? 'text-primary-600 font-semibold'
-                : 'text-gray-600 hover:text-primary-600'
+                : 'text-gray-400 hover:text-primary-600'
             }`
           }
           onClick={onItemClick}
