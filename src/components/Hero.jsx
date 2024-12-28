@@ -7,7 +7,7 @@ export default function Hero() {
   const [showPopper, setShowPopper] = useState(false);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 pt-16 transition-colors duration-200">
+    <section className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-neutral-950 pt-16 transition-colors duration-200">
       <div className="container mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -19,13 +19,13 @@ export default function Hero() {
             <img
               src="../projects/avatar.png"
               alt="Profile"
-              className="rounded-full w-full h-full object-cover shadow-lg"
+              className="rounded-full w-full h-full object-cover"
             />
-            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex items-center drop-shadow-lg">
-              <span className="text-black dark:text-white px-4 py-1 rounded-full bg-gray-800 relative flex items-center justify-center gap-3 bg-primary-100 dark:bg-primary-900">
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex items-center">
+              <span className="text-black dark:text-white px-4 py-1 rounded-full relative flex items-center justify-center gap-3 bg-gray-50 dark:bg-black transition-colors duration-200">
                 <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-400"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 dark:bg-red-500 opacity-75"></span>
+                
                 </span>
                 L F O
               </span>
@@ -35,8 +35,8 @@ export default function Hero() {
           </div>
           <div className="space-y-4">
             <h1 className="text-6xl font-bold">NIMSARA PEIRIS</h1>
-            <h2 className="text-xl text-primary-600">Software Engineering Undergraduate</h2>
-            <p className="max-w-2xl mx-auto text-gray-500">
+            <h2 className="text-xl text-orange-500">Software Engineering Undergraduate</h2>
+            <p className="max-w-2xl text-gray-500 mx-auto text-gray-500">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.
             </p>
@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="flex justify-center gap-4">
             <div className="relative">
               <button
-                className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition-colors transition duration-150 ease-in-out delay-150"
+                className="bg-primary-500 text-white px-9 py-9 rounded-full hover:bg-gray-900 transition-colors transition ease-in-out delay-300 dark:bg-white flex items-center justify-center dark:hover:text-black"
                 onClick={() => setShowPopper(true)}
                 onMouseEnter={() => setShowPopper(true)}
                 onMouseLeave={() => setShowPopper(false)}
@@ -55,8 +55,8 @@ export default function Hero() {
               <CVPopper show={showPopper} />
             </div>
             <a href="/contact">
-              <button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:border-gray-900 hover:text-white transition-colors delay-150 flex items-center justify-center">
-                Contact Me
+              <button className="text-primary-500 px-4 py-9 rounded-full  hover:text-white transition-colors delay-300 flex items-center justify-center dark:bg-white dark:text-white dark:hover:text-black">
+                Catch Me
               </button>
             </a>
 
