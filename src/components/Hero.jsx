@@ -21,14 +21,20 @@ export default function Hero() {
               alt="Profile"
               className="rounded-full w-full h-full object-cover shadow-lg"
             />
-            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
-            </div><br />
-            <span className="bg-primary-500 text-white px-4 py-1 rounded-full text-sm">
-              Available for hire
-            </span>
-          </div><br /><br />
+            <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex items-center drop-shadow-lg">
+              <span className="text-black dark:text-white px-4 py-1 rounded-full bg-gray-800 relative flex items-center justify-center gap-3 bg-primary-100 dark:bg-primary-900">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-400"></span>
+                </span>
+                L F O
+              </span>
+            </div>
+
+
+          </div>
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold">Nimsara Peiris</h1>
+            <h1 className="text-6xl font-bold">NIMSARA PEIRIS</h1>
             <h2 className="text-xl text-primary-600">Software Engineering Undergraduate</h2>
             <p className="max-w-2xl mx-auto text-gray-500">
               Passionate developer with 5 years of experience in building web applications.
@@ -39,7 +45,7 @@ export default function Hero() {
           <div className="flex justify-center gap-4">
             <div className="relative">
               <button
-                className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition-colors hover:scale-105 transition duration-150 ease-in-out delay-150"
+                className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition-colors transition duration-150 ease-in-out delay-150"
                 onClick={() => setShowPopper(true)}
                 onMouseEnter={() => setShowPopper(true)}
                 onMouseLeave={() => setShowPopper(false)}
@@ -48,13 +54,13 @@ export default function Hero() {
               </button>
               <CVPopper show={showPopper} />
             </div>
-            <a href="/contact"><button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:border-gray-900 hover:text-white transition-colors hover:scale-105 delay-150">
-              Contact Me
-            </button></a>
-            <span class="relative flex h-3 w-3">
-              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-              <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-            </span>
+            <a href="/contact">
+              <button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:border-gray-900 hover:text-white transition-colors delay-150 flex items-center justify-center">
+                Contact Me
+              </button>
+            </a>
+
+
           </div>
         </motion.div>
       </div>
