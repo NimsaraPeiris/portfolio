@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex items-center">
               <span className="text-black dark:text-white px-4 py-1 rounded-full relative flex items-center justify-center gap-3 bg-gray-50 dark:bg-black transition-colors duration-200">
                 <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 dark:bg-red-500 opacity-75"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black dark:bg-white opacity-75"></span>
                 
                 </span>
                 L F O
@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="flex justify-center gap-4">
             <div className="relative">
               <button
-                className="bg-primary-500 text-white px-9 py-9 rounded-full hover:bg-gray-900 transition-colors transition ease-in-out delay-300 dark:bg-white flex items-center justify-center dark:hover:text-black"
+                className="bg-black text-white px-9 py-9 rounded-full hover:bg-gray-900 transition-colors transition ease-in-out delay-300 dark:bg-white flex items-center justify-center dark:text-black"
                 onClick={() => setShowPopper(true)}
                 onMouseEnter={() => setShowPopper(true)}
                 onMouseLeave={() => setShowPopper(false)}
@@ -55,7 +55,7 @@ export default function Hero() {
               <CVPopper show={showPopper} />
             </div>
             <a href="/contact">
-              <button className="text-primary-500 px-4 py-9 rounded-full  hover:text-white transition-colors delay-300 flex items-center justify-center dark:bg-white dark:text-white dark:hover:text-black">
+              <button className="text-white bg-black px-4 py-9 rounded-full dark:text-black transition-colors delay-300 flex items-center justify-center dark:bg-white dark:text-white">
                 Catch Me
               </button>
             </a>
