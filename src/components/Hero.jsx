@@ -35,7 +35,7 @@ export default function Hero() {
           </div>
           <div className="space-y-4">
             <h1 className="text-6xl font-bold">NIMSARA PEIRIS</h1>
-            <h2 className="text-xl text-orange-500">Software Engineering Undergraduate</h2>
+            <h2 className="text-xl text-gray-500 darK:text-orange-500">Software Engineering Undergraduate</h2>
             <p className="max-w-2xl text-gray-500 mx-auto text-gray-500">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.
