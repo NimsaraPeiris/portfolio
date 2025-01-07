@@ -10,8 +10,8 @@ export default function DesktopMenu({ menuItems }) {
           className={({ isActive }) =>
             `transition-colors ${
               isActive
-                ? 'text-primary-500 font-semibold'
-                : 'text-gray-500 hover:text-primary-600'
+                ? 'text-white font-semibold'
+                : 'text-gray-400 hover:text-white'
             }`
           }
         >

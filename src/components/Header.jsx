@@ -16,7 +16,7 @@ export default function Header() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
           >
-            <NavLink to="/" className="text-2xl font-bold text-primary-400">
+            <NavLink to="/" className="text-2xl font-bold text-black dark:text-white">
               Portfolio
             </NavLink>
           </motion.div>
