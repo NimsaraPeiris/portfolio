@@ -9,7 +9,7 @@ export default function AboutMe() {
   });
 
   return (
-    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <section id="about" className="py-20 bg-gray-50 dark:bg-neutral-950 transition-colors duration-300">
       <div className="container mx-auto px-6">
           <motion.div
             ref={ref}
@@ -36,8 +36,8 @@ export default function AboutMe() {
             <div className="md:w-2/3">
               <h1 className="text-4xl font-bold mb-4 pt-5">Hi, I'm Nimsara</h1>
 
-              <h2 className="text-2xl text-primary-600 mb-6">Full Stack Developer</h2>
-              <div className="-bottom-4 -right-4 bg-primary-500 text-white px-6 py-2 rounded-full w-fit">
+              <h2 className="text-2xl text-gray-500 mb-6">Full Stack Developer</h2>
+              <div className="-bottom-4 -right-4 text-sm text-white bg-black dark:bg-white dark:text-black px-6 py-2 rounded-full w-fit">
                 Available for hire
               </div><br />
 
@@ -47,11 +47,11 @@ export default function AboutMe() {
                 you'll find me contributing to open source projects or mentoring junior developers.
               </p>
               <div className="flex gap-4">
-                <button className="bg-primary-500 text-white px-6 py-2 rounded-full hover:bg-primary-600 transition-colors duration-300">
+                <button className="bg-gray-500 text-white px-6 py-2 rounded-full hover:bg-black transition-colors duration-300">
                   Download CV
                 </button>
                 <a href="/contact">
-                <button className="border-2 border-primary-500 text-primary-500 px-6 py-2 rounded-full hover:bg-gray-900 hover:dark:border-white hover:dark:text-white transition-colors duration-100">
+                <button className="border-2 border-gray-500 text-gray-500 px-6 py-2 rounded-full dark:text-green-400 hover:text-black dark:hover:border-black hover:dark:text-white transition-colors duration-100">
                   Contact Me
                 </button></a>
               </div>

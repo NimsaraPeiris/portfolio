@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 flex items-center">
               <span className="text-black dark:text-white px-4 py-1 rounded-full relative flex items-center justify-center gap-3 bg-gray-50 dark:bg-black transition-colors duration-200">
                 <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black dark:bg-white opacity-75"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black dark:bg-teal-400 opacity-75"></span>
                 
                 </span>
                 L F O
@@ -34,8 +34,8 @@ export default function Hero() {
 
           </div>
           <div className="space-y-4">
-            <h1 className="text-6xl font-bold">NIMSARA PEIRIS</h1>
-            <h2 className="text-xl text-gray-500 darK:text-orange-500">Software Engineering Undergraduate</h2>
+            <h1 className="text-6xl text-teal-500 font-bold">NIMSARA PEIRIS</h1>
+            <h2 className="text-xl text-teal-500">Software Engineering Undergraduate</h2>
             <p className="max-w-2xl text-gray-500 mx-auto text-gray-500">
               Passionate developer with 5 years of experience in building web applications.
               Specializing in React, Node.js, and cloud technologies.

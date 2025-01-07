@@ -15,7 +15,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <Router>
-        <div className="min-h-screen dark:bg-gray-900 dark:text-white transition-colors duration-300">
+        <div className="min-h-screen bg-white dark:bg-neutral-950 dark:text-white transition-colors duration-300">
           <Header />
           <Routes>
             <Route path="/" element={<Hero />} />
