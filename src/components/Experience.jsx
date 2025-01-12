@@ -5,7 +5,7 @@ export default function Experience() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section id="experience" className="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+    <section id="experience" className="py-20 bg-white dark:bg-neutral-950 transition-colors duration-300">
       <div className="container mx-auto px-6">
         <motion.div
           ref={ref}

@@ -9,15 +9,16 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-8 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-neutral-950 transition-colors duration-100">
-      <nav className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
+    <header className="fixed left-0 right-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-neutral-950 transition-colors duration-100">
+      <nav className="container py-10">
+        <div className="flex items-center justify-between ">
           <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 0.8, x: 0 }}
           >
-            <NavLink to="/" className="text-2xl font-bold text-teal-500">
-              Portfolio
+            <NavLink to="/" className="text-4xl font-bold text-black dark:text-white px-20 ">
+              <span className="text-black dark:text-white">NiMsArA</span>
+              <span className="text-teal-500">/</span>
             </NavLink>
           </motion.div>
 

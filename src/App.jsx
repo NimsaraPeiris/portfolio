@@ -4,7 +4,6 @@ import ThemeToggle from './components/theme/ThemeToggle';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
-import Skills from './components/skills/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
@@ -20,7 +19,6 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<AboutMe />} />
-            <Route path="/skills" element={<Skills />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/education" element={<Education />} />
             <Route path="/projects" element={<Projects />} />

@@ -12,7 +12,7 @@ export default function ThemeToggle() {
             aria-label="Toggle theme"
         >
             {isDark ? (
-                <FaSun className="w-5 h-5 text-yellow-500" />
+                <FaSun className="w-5 h-5 text-gray-500" />
             ) : (
                 <FaMoon className="w-5 h-5 text-gray-700" />
             )}
