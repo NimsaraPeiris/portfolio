@@ -9,10 +9,13 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import { AnimatedCursor } from './components/AnimatedCursor';
+import './index.css';
 
 export default function App() {
   return (
     <ThemeProvider>
+      <AnimatedCursor/>
       <Router>
         <div className="min-h-screen bg-white dark:bg-neutral-950 dark:text-white transition-colors duration-300">
           <Header />
