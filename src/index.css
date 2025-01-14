@@ -44,3 +44,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@keyframes logo-slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-logo-cloud {
+  animation: logo-slide 20s linear infinite;
+}

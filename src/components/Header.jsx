@@ -9,7 +9,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed left-0 right-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-neutral-950 transition-colors duration-100">
+    <header className="fixed left-0 right-0 z-50 bg-transparent backdrop-blur-sm transition-colors duration-100">
       <nav className="container py-10">
         <div className="flex items-center justify-between ">
           <motion.div
