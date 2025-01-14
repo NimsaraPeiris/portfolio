@@ -31,7 +31,7 @@ export default function Hero() {
       <img
         src={HeroImg}
         alt="Hero Background"
-        className="absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+        className="absolute inset-0 w-full h-full object-cover opacity-100 z-0"
         style={{
           top: '80px',
           width: '30%', // reduce the width to 50%

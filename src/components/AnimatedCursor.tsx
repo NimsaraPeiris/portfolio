@@ -1,13 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-interface CursorPosition {
-    x: number;
-    y: number;
-};
-
 export function AnimatedCursor() {
-    const [position, setPosition] = useState<CursorPosition>({ x: 0, y: 0 });
-    const [trailingPosition, setTrailingPosition] = useState<CursorPosition>({ x: 0, y: 0 });
+    const [position, setPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+    const [trailingPosition, setTrailingPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
     const [isPointer, setIsPointer] = useState(false);
     const animationFrameRef = useRef<number>();
 
@@ -69,9 +64,9 @@ export function AnimatedCursor() {
                 <div className={`
                     rounded-full
                     ${isPointer ? 'w-8 h-8' : 'w-6 h-6'}
-                    border-2 border-indigo-500
+                    border-2 border-gray-500
                     transition-all duration-200
-                    ${isPointer ? 'bg-indigo-100/20' : 'bg-transparent'}
+                    ${isPointer ? 'bg-gray-100/20' : 'bg-transparent'}
                 `} />
             </div>
             {/* Center dot */}
@@ -101,7 +96,7 @@ export function AnimatedCursor() {
             >
                 <div className={`
                     rounded-full w-3 h-3
-                    bg-indigo-400/30
+                    bg-gray-400/30
                     transition-all duration-200
                     ${isPointer ? 'scale-150' : 'scale-100'}
                 `} />
