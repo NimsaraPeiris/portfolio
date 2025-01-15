@@ -22,7 +22,7 @@ export default function Header() {
             </NavLink>
           </motion.div>
 
-          <DesktopMenu menuItems={menuItems} />
+          {/* <DesktopMenu menuItems={menuItems} /> */}
 
           <button
             className="md:hidden"

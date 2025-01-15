@@ -39,7 +39,7 @@ const blogs = [
     },
     {
         id: 5,
-        title: 'Understanding TypeScript in 2024',
+        title: 'Uniprener\'s Impact Challenge',
         author: 'Robert Brown',
         date: '02.11.2024',
         image: './projects/achivements/1st-RUP-G_ALFA.jpg',
