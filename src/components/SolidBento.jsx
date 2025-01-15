@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+
 const blogs = [
     {
         id: 1,
@@ -58,7 +59,7 @@ export default function SolidBento() {
     if (!mounted) return null;
 
     return (
-        <div className="grid max-h-screen h-auto p-4 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-4">
+        <div className="grid max-h-screen h-auto md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-2">
             {blogs.map((blog, index) => (
                 <a
                     key={blog.id}
