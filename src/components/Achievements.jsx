@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Achievements() {
     return (
-        <section id='Achievements' className="py-20 bg-white dark:bg-neutral-950 transition-colors duration-300"><hr className="my-3 border-gray-200 dark:border-gray-700"/>
+        <section id='Achievements' className="py-20 bg-white dark:bg-neutral-900 transition-colors duration-300"><hr className="my-3 border-gray-200 dark:border-gray-700"/>
             <div className="space-y-6">
                 <h3 className="text-xl font-semibold mb-4">Achievements</h3>
             </div>

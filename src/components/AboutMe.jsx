@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Achievements from './Achievements';
 
 export default function AboutMe() {
   const [ref, inView] = useInView({
@@ -58,7 +57,6 @@ export default function AboutMe() {
             </div>
             {/* add here something u want to add like a book mark to ryt of the hero content */}
           </div>
-          <Achievements />
         </motion.div>
       </div>
     </section>
