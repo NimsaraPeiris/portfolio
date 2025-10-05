@@ -576,7 +576,7 @@ function App() {
           
           <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="font-mono text-sm text-neutral-400 mb-4 md:mb-0">
-              © 2025 Nimsara Rathnayake. All rights reserved.
+              © 2025 Nimsara Peiris. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="font-mono text-xs text-neutral-400 hover:text-primary-400 transition-colors">Privacy Policy</a>
